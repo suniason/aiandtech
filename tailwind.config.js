@@ -28,10 +28,10 @@ module.exports = {
           '100%%' : { transform: 'scale(1) rotate(0)' }
         },
         sideshow:{
-            "0%" : {right:"-30%"},
+            "0%" : {right:"-100%"},
             "40%" : {right:"10%"},
             "80%" : {right:"10%"},
-            "100%" : {right:"-30%"},
+            "100%" : {right:"-100%"},
         },
       },
       animation:{
