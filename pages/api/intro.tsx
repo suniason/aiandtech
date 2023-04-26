@@ -26,7 +26,7 @@ const Intro:React.FC = () => {
                 AI & Technology </div>
             </h1>
             <div>
-                <div ref={handRef} className="absolute right-[-30%] bottom-[45%]">
+                <div ref={handRef} className="absolute right-[-100%] bottom-[45%]">
                     <div className="pointer-events-none">
                         <img src="/greetings.png" alt="" className="w-[20rem] h-[15rem]"/>
                     </div>
