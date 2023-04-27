@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Ai from "./api/ai";
 import Intro from "./api/intro";
 import Tech from "./api/tech";
+import Footer from "./api/footer";
 
 
 export default function Home() {
@@ -34,6 +35,9 @@ export default function Home() {
       </div>
       <div className="flex min-h-[120vh] items-center">
         <Tech/>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   )
